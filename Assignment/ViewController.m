@@ -167,13 +167,14 @@
 
     if (![[filter objectForKey:@"imageHref"] isEqual:[NSNull null]]) {
         
-        cell.thumbImage.image = nil;
+        // Default image will set and it will be replaced once the image is downloaded. Because some of the urls are not working.
+        cell.thumbImage.image = [UIImage imageNamed:@"No_Image.png"];
         
         NSURL *url = [NSURL URLWithString:[filter objectForKey:@"imageHref"]];
         
-        NSURLSessionTask *task = [[NSURLSession sharedSession] dataTaskWithURL:url completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-            if (data) {
-                UIImage *image = [UIImage imageWithData:data];
+        NSURLSessionTask *task = [[NSURLSession sharedSession] dataTaskWithURL:url completionHandler:^(NSData * __nullable reqdata, NSURLResponse * __nullable reqResponse, NSError * __nullable error) {
+            if (reqdata) {
+                UIImage *image = [UIImage imageWithData:reqdata];
                 if (image) {
                     dispatch_async(dispatch_get_main_queue(), ^{
                         FeedCell *updateCell = (id)[tableView cellForRowAtIndexPath:indexPath];

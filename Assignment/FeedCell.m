@@ -21,7 +21,7 @@
         titleLbl.numberOfLines = 0;
         titleLbl.lineBreakMode = NSLineBreakByWordWrapping;
         [titleLbl setTranslatesAutoresizingMaskIntoConstraints:NO];
-        [titleLbl setFont:[UIFont fontWithName:@"Verdana" size:22]];
+        [titleLbl setFont:[UIFont fontWithName:@"Verdana" size:19]];
         [titleLbl setTextColor:[UIColor purpleColor]];
         titleLbl.preferredMaxLayoutWidth = CGRectGetWidth(self.bounds);
         [self.contentView addSubview:titleLbl];

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>77FD91FA-947B-4C8F-95C4-7A968D83C6F0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Assignment</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B4224035789E6EE8168E4C74072DE526BE81C07A</key>
+		<string>https://github.com/smanojarun87/AssignmentManoj.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Assignment.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B4224035789E6EE8168E4C74072DE526BE81C07A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/smanojarun87/AssignmentManoj.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B4224035789E6EE8168E4C74072DE526BE81C07A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B4224035789E6EE8168E4C74072DE526BE81C07A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AssignmentManoj</string>
+		</dict>
+	</array>
+</dict>
+</plist>
