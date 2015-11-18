@@ -2,7 +2,7 @@
 //  main.m
 //  Assignment
 //
-//  Created by Arun on 11/12/15.
+//  Created by Manoj Arun S on 11/12/15.
 //  Copyright © 2015 Cognizant. All rights reserved.
 //
 

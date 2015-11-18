@@ -8,15 +8,19 @@
 
 #import <UIKit/UIKit.h>
 #import "FeedCell.h"
+#import "SharedUtil.h"
+#import "FeedModel.h"
 
 // Default row height of the feed table.
 static int rowHeight = 110;
 // Json response from the URL.
 static NSString *jsonUrl = @"https://dl.dropboxusercontent.com/u/746330/facts.json";
 
-@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+@interface FeedViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,NSURLConnectionDelegate>
 {
     UITableView *tableView;
+    NSMutableData *_responseData;
+    FeedModel *feed;
 }
 
 @property (nonatomic, strong) NSMutableArray *rowData;// Feed data from the json array of "rows":[]
